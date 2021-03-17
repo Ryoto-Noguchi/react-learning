@@ -13,7 +13,7 @@ const UseStateObject = () => {
 
   const changeMessage = () => {
     // setPerson({ ...person, message: "hello world" });
-    setMessage("hello world")
+    setMessage("hello world");
   };
   return (
     <>
