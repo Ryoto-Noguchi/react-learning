@@ -13,7 +13,6 @@ const UseRefBasics = () => {
     console.log(refContainer.current);
   };
   console.log(refContainer);
-
   useEffect(() => {
     console.log(refContainer.current);
     refContainer.current.focus();
