@@ -17,7 +17,6 @@ const ControlledInputs = () => {
     const name = e.target.name;
     const value = e.target.value;
     setPerson({ ...person, [name]: value }); // <article>の中の<input>でname属性がついた、fisrtName/email/age全てに変更を加える
-  }; 
 
   const handleSubmit = (e) => {
     e.preventDefault();
