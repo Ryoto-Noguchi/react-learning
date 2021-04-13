@@ -6,10 +6,10 @@ const Product = ({ image, name, price }) => {
   const url = image && image.url; // JSONオブジェクトにimageがあるものであれば
   return (
     <article className="product">
-      <img src={url || defaultImage} alt={name || "default name"} /> 
+      <img src={url || defaultImage} alt={name || "default name"} />
       <h4>{name}</h4>
       <p>${price || 3.99}</p>
-    </article>
+    </article>  
   );
 };
 
